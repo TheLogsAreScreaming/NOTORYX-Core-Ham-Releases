@@ -17,7 +17,7 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 
 ## Status
 
-**No builds are published yet.** The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, and are now being tested on real radios. Releases will appear here once that's done.
+**Test builds only.** The newest is **[0.1.0 test 12](../../releases/tag/v0.1.0-test.12)** (Android and Mac). The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
 
 ## What it does
 
