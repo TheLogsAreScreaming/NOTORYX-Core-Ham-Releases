@@ -17,7 +17,7 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 
 ## Status
 
-**Test builds only.** The newest is **[0.1.0 test 12](../../releases/tag/v0.1.0-test.12)** (Android and Mac). The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
+**Test builds only.** The newest is **[0.1.0 test 14](../../releases/tag/v0.1.0-test.14)** (Android and Mac), from 15 November 2026. The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
 
 ## What it does
 
@@ -27,6 +27,13 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 - **Repeater logins without sending the password.**
 - **Licensed operator setup** in the app: call sign, licence class and a coordination acknowledgment.
 - Everything else from NOTORYX Core: check-ins, SOS, trip contacts, maps, path tools and field tools.
+- **New in tests 13 and 14:**
+  - The Fresnel zone on line of sight.
+  - A compass that points to any node (**Point me to it**).
+  - A photo or colour per node.
+  - Your own background behind the glass cards.
+
+The full feature list is in the [app's README](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham#features).
 
 The ham firmware doesn't talk to ordinary MeshCore radios: every radio in your mesh, repeaters included, needs it.
 
@@ -34,9 +41,19 @@ The ham firmware doesn't talk to ordinary MeshCore radios: every radio in your m
 
 Heltec V4 · Heltec T114 · RAK WisBlock / WisMesh (RAK4631) · RAK WisMesh 1W Booster (RAK3401 + 13302) · Seeed Studio SenseCAP T1000-E · UnitEng Station G2 · UnitEng Station G3
 
+**Compiled but never flashed** ([firmware test 4](../../releases/tag/v1.18.0-ham-test.4)): Heltec V3 · Heltec Wireless Stick Lite V3 · Seeed SenseCAP Solar Node · Seeed Wio Tracker L1 · Seeed Xiao nRF52 kit · Seeed Xiao S3 · LilyGO T-Beam (SX1262 or SX1276) · LilyGO T-Beam S3 · nRF52 Pro Micro DIY · LilyGO T-Echo · LilyGO T-LoRa V2.1-1.6 · LilyGO T3-S3 (SX1262 or SX1276) · LilyGO T-Deck · RAK WisMesh Tag. None has been run on its board, so they may not boot.
+
+Companion builds can be flashed from the browser with the **[web flasher](https://www.meshmayhem.org/hamwebflasher/)**. There's also a [download page](https://www.meshmayhem.org/ham/).
+
 <p align="center">
   <img src="images/nodes.png" width="210" alt="Nodes named with call signs">
   <img src="images/settings.png" width="210" alt="Settings with the Licensed operator card">
+  <img src="images/node_compass.png" width="210" alt="Compass pointing to a node">
+</p>
+
+<p align="center">
+  <img src="images/node_look.png" width="210" alt="Choosing a colour or photo for a node">
+  <img src="images/background.png" width="210" alt="Background settings">
 </p>
 
 ## Data files
