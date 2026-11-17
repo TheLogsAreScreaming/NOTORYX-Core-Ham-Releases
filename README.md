@@ -17,7 +17,7 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 
 ## Status
 
-**Test builds only.** The newest is **[0.1.0 test 14](../../releases/tag/v0.1.0-test.14)** (Android and Mac), from 15 November 2026. The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
+**Test builds only.** The newest is **[0.1.0 test 15](../../releases/tag/v0.1.0-test.15)** (Android and Mac), from 16 November 2026. The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
 
 ## What it does
 
@@ -27,11 +27,12 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 - **Repeater logins without sending the password.**
 - **Licensed operator setup** in the app: call sign, licence class and a coordination acknowledgment.
 - Everything else from NOTORYX Core: check-ins, SOS, trip contacts, maps, path tools and field tools.
-- **New in tests 13 and 14:**
+- **New in tests 13 to 15:**
   - The Fresnel zone on line of sight.
   - A compass that points to any node (**Point me to it**).
   - A photo or colour per node.
   - Your own background behind the glass cards.
+  - Each nearby repeater listed once.
 
 The full feature list is in the [app's README](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham#features).
 
