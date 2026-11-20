@@ -19,6 +19,8 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 
 **Test builds only.** The newest (Android and Mac) is always at the top of **[the releases page](../../releases)**. The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
 
+The newest app build is **[0.1.0 test 17](../../releases/tag/v0.1.0-test.17)** (19 November 2026). It fixes a possible hang on the Android start screen in test 16, shows an unknown age instead of thousands of days for nodes whose radio clock was never set, and keeps range-ring labels clear of the map's bars. It hasn't been tried on a phone or radios yet. The newest firmware is [firmware test 4](../../releases/tag/v1.18.0-ham-test.4).
+
 ## What it does
 
 - **Your call sign on every frame**, including frames a repeater relays. A radio stays silent until its name starts with a valid US call sign.
@@ -35,8 +37,6 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
   - Each nearby repeater listed once.
   - A live Traffic map that draws each packet's route as it's heard.
   - Stale-node marking and range rings on the map.
-
-The full feature list is in the [app's README](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham#features).
 
 The ham firmware doesn't talk to ordinary MeshCore radios: every radio in your mesh, repeaters included, needs it.
 
@@ -67,4 +67,8 @@ This repository also hosts the live files the app checks for updates:
 - `channel_directory.json`: the public channel directory
 - `COORDINATION.md`: what to coordinate before transmitting
 
-Source: [NOTORYX-Core-Ham](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham) (app) and [NOTORYX-Core-Ham-Firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) (firmware).
+Firmware source: [NOTORYX-Core-Ham-Firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware).
+
+## Problems or ideas
+
+Open an issue in this repository with your phone or Mac model, the app version, your radio model and its firmware version.
