@@ -25,6 +25,7 @@ The newest app build is **[0.1.0 test 17](../../releases/tag/v0.1.0-test.17)** (
 
 - **Your call sign on every frame**, including frames a repeater relays. A radio stays silent until its name starts with a valid US call sign.
 - **Plain text, as Part 97 requires.** Authentication is kept; nothing is encrypted. Everything you send is readable by anyone.
+- **No SARNEG code words.** The other NOTORYX apps can send numbers as SARNEG code letters. §97.113(a)(4) forbids messages encoded to hide their meaning on amateur bands, so Core Ham leaves SARNEG out. [More about SARNEG](https://meshmayhem.org/notoryx/#sarneg).
 - **33 cm and 70 cm only**, with US presets (906.875 MHz default).
 - **Repeater logins without sending the password.**
 - **Licensed operator setup** in the app: call sign, licence class and a coordination acknowledgment.
