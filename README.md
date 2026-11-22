@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/icon.png" width="110" alt="NOTORYX app icon">
+  <img src="images/banner.png" alt="NOTORYX Core Ham: engineered for independence">
 </p>
 
 # NOTORYX Core Ham releases
@@ -19,7 +19,7 @@ Downloads for **NOTORYX Core Ham**: off-grid LoRa mesh messaging for licensed US
 
 **Test builds only.** The newest (Android and Mac) is always at the top of **[the releases page](../../releases)**. The app and the [NOTORYX Ham firmware](https://github.com/TheLogsAreScreaming/NOTORYX-Core-Ham-Firmware) pass automated tests and a mesh simulator, but haven't been tested on the air yet. Use them on a bench with dummy loads or minimum power, and read the warning in each release first.
 
-The newest app build is **[0.1.0 test 17](../../releases/tag/v0.1.0-test.17)** (19 November 2026). It fixes a possible hang on the Android start screen in test 16, shows an unknown age instead of thousands of days for nodes whose radio clock was never set, and keeps range-ring labels clear of the map's bars. It hasn't been tried on a phone or radios yet. The newest firmware is [firmware test 4](../../releases/tag/v1.18.0-ham-test.4).
+The newest app build is **[0.1.0 test 19](../../releases/tag/v0.1.0-test.19)**. It brings the new **BLACKOUT** look: a new app icon, and BLACKOUT (matte black and steel) as the default theme. Blaze, Tactical, Okabe-Ito and Night Ops are still in Settings → Theme. It hasn't been tried on radios yet. The newest firmware is [firmware test 4](../../releases/tag/v1.18.0-ham-test.4).
 
 ## What it does
 
@@ -30,7 +30,9 @@ The newest app build is **[0.1.0 test 17](../../releases/tag/v0.1.0-test.17)** (
 - **Repeater logins without sending the password.**
 - **Licensed operator setup** in the app: call sign, licence class and a coordination acknowledgment.
 - Everything else from NOTORYX Core: check-ins, SOS, trip contacts, maps, path tools and field tools.
+- **BLACKOUT look:** matte black, charcoal and steel, with colour kept only where it carries meaning (signal, warnings, SOS). Four more themes in Settings → Theme.
 - **Recently added:**
+  - The new BLACKOUT app icon and default theme.
   - The Fresnel zone on line of sight.
   - A compass that points to any node (**Point me to it**).
   - A photo or colour per node.
@@ -50,15 +52,24 @@ Heltec V4 · Heltec T114 · RAK WisBlock / WisMesh (RAK4631) · RAK WisMesh 1W B
 Companion builds can be flashed from the browser with the **[web flasher](https://www.meshmayhem.org/hamwebflasher/)**. There's also a [download page](https://www.meshmayhem.org/ham/).
 
 <p align="center">
+  <img src="images/home.png" width="210" alt="Home: radio readings, Check in and Hold for SOS">
+  <img src="images/chats.png" width="210" alt="Chats: channels and direct messages">
   <img src="images/nodes.png" width="210" alt="Nodes named with call signs">
-  <img src="images/settings.png" width="210" alt="Settings with the Licensed operator card">
-  <img src="images/node_compass.png" width="210" alt="Compass pointing to a node">
 </p>
 
 <p align="center">
+  <img src="images/traffic_map.png" width="210" alt="Map with the live Traffic view">
+  <img src="images/settings.png" width="210" alt="Settings with the Licensed operator card">
+  <img src="images/themes.png" width="210" alt="Theme picker with BLACKOUT selected">
+</p>
+
+<p align="center">
+  <img src="images/node_compass.png" width="210" alt="Compass pointing to a node">
   <img src="images/node_look.png" width="210" alt="Choosing a colour or photo for a node">
   <img src="images/background.png" width="210" alt="Background settings">
 </p>
+
+Screenshots use made-up demo stations, not real call signs.
 
 ## Data files
 
